@@ -36,8 +36,3 @@ class Aluno:
         else:
             print('Parabéns! Você consegiu passar.')
         return media
-
-
-hugo = Aluno('Hugo',18,None)
-hugo.curso()
-hugo.eu()
