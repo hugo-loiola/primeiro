@@ -1,15 +1,15 @@
 # Programa de calculo de notas do IESB.
 
 class Aluno:
-    def __init__(self,nome,idade,nota):
+    def __init__(self,nome,idade,curso):
         self.nome = nome
         self.idade = idade
-        self.nota = nota
+        self.curso = curso
     
     def eu(self):
-        print(f'Meu nome é {self.nome}, tenho {self.idade} e tirei {self.nota} no meu curso')
+        print(f'Meu nome é {self.nome}, tenho {self.idade} e faço o curso de{self.curso} na minha faculdade')
     
-    def curso(self):
+    def nota(self):
         
         print('~'*10)
         print('Nota IESB')
@@ -38,6 +38,6 @@ class Aluno:
         else:
             print('Parabéns! Você consegiu passar.')
 
-hugo = Aluno('Hugo',18,50)
+hugo = Aluno('Hugo',18,'ADS')
 hugo.eu()
-hugo.curso()
+hugo.nota()
