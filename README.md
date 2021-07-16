@@ -21,3 +21,6 @@ hugo = Aluno('Hugo',18,'ADS')
 hugo.eu()
 hugo.nota()
 ~~~
+
+
+OBS: Codigo totalmente aberto passível de mudanças a qualquer momento.
