@@ -1,4 +1,4 @@
-# Programa de calculo de notas do IESB
+# Programa de Cálculo de Notas do IESB
 
 Como pode se notar, eu utilizei a **class** Aluno para uma melhor compreensão e fazer esse algoritimo mais 'amigável'.
 
