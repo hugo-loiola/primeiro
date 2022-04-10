@@ -35,9 +35,12 @@ class Aluno:
             print(f'Esta é a sua nova média {media}')
             if media < 5:
             	print(f'Infelizmente você não consegiua atingir a média.')
-        else:
-            print('Parabéns! Você consegiu passar.')
-
-hugo = Aluno('Hugo',18,'ADS')
+		else:
+			print('Parabéns! Você consegiu passar.')
+# Chamar a função e colocar os dados. 
+user_name = input("Coloque seu nome: ")
+user_age = int(input("Coloque sua idade: "))
+user_course = input("Coloque seu curos: ")
+hugo = Aluno(user_name, user_age, user_course)
 hugo.eu()
 hugo.nota()
