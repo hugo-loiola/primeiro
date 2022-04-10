@@ -1,26 +1,19 @@
 # Programa de Cálculo de Notas do IESB
 
-Como pode se notar, eu utilizei a **class** Aluno para uma melhor compreensão e fazer esse algoritimo mais 'amigável'.
+Este é um programa escrito em `python` para a realização do cálculo de nota para a instituição de ensino que eu estudo. Como projeto estudantil é bem simples mas bem enficiente também.
 
-~~~python
+---
+
+Eu fiz a criação de uma classe chamada Aluno onde nela há várias funções que são utilizadas para o cálculo.
+
+```python
 class Aluno:
     def __init__(self,nome,idade,nota):
         self.nome = nome
         self.idade = idade
         self.nota = nota
-~~~
+```
 
 ---
-
-Depois, apliquei diversos **methods** para chamalos e fazer a operação da nota e *strings* para um estilo melhor.
-
-Se quiser pode só copiar este código abaixo ou modificalo e começar a testar :
-
-~~~python
-hugo = Aluno('Hugo',18,'ADS')
-hugo.eu()
-hugo.nota()
-~~~
-
 
 OBS: Codigo totalmente aberto passível de mudanças a qualquer momento.
